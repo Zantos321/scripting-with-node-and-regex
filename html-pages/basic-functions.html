@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>JavaScript Function Library</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="/style.css" />
+   </head>
+
+   <body>
+      <div class="container">
+         <div class="row mt-2">
+            <div class="col-12">
+               <h1 class="d-flex justify-content-center">
+                  JavaScript Functions: Basic
+               </h1>
+               <p class="text-center lead mb-4">
+                  <span id="totalFunctionNum"></span> functions documented
+               </p>
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>standInLine</b> - Enter your number to be put in line.
+                     Press run to let the number in front go to the window.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>shoppingList</b> - There are too many sweets! Type in an
+                     item then a quantity to replace the Ice Cream from the
+                     array.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>unShiftArray</b> - Type in two numbers you want to
+                     replace the first two numbers in the array 3,5,8,7.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>shiftArray</b> - Press run to remove the first number of
+                     the array 7,3,4.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>popArray</b> - Press run to remove the last number of
+                     the array 7,3,4.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>pushArray</b> - Type in two things you would like pushed
+                     to an array 7,3.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>bracketNthLastLetter</b> - Type a word and the number of
+                     the letter from the end to display it.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>bracketLastLetter</b> - Type in a word to see the last
+                     letter of it.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>bracketNthLetter</b> - Type a word and the number of the
+                     letter you want displayed.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>bracketFirstLetter</b> - Type in a word to see the first
+                     letter of it.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>stringLength</b> - Type in a word to see how long it is.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>concatentateVariable</b> - Type in your first name and
+                     last name.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>concatentatePlusEqual</b> - Type in two strings to
+                     concatenate.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>concatenate</b> - Type in two strings to concatenate.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name"><b>compoundAdd</b> - Add a number to 5</p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>decrement</b> - Subtract to a number by one
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name"><b>increment</b> - Add to a number by one</p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>decimalDivision</b> - Divide two decimal values together
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>decimalMultiplication</b> - Multiply two decimal values
+                     together
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>division</b> - Divide two values together
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>multiplication</b> - Multiply two values together
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>subtract</b> - Subtract two values together
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name"><b>add</b> - Add two values together</p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+            </div>
+         </div>
+      </div>
+      <script
+         src="https://code.jquery.com/jquery-3.5.0.min.js"
+         integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+         crossorigin="anonymous"
+         defer
+      ></script>
+      <script src="/functions.js" defer></script>
+      <script src="/utils.js" defer></script>
+      <script src="/ui.js" defer></script>
+   </body>
+</html>
