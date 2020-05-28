@@ -1,0 +1,695 @@
+[
+   {
+      "name": "add",
+      "desc": "Add two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 100
+   },
+   {
+      "name": "subtract",
+      "desc": "Subtract two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 101
+   },
+   {
+      "name": "multiplication",
+      "desc": "Multiply two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 102
+   },
+   {
+      "name": "division",
+      "desc": "Divide two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 103
+   },
+   {
+      "name": "decimalMultiplication",
+      "desc": "Multiply two decimal values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 104
+   },
+   {
+      "name": "decimalDivision",
+      "desc": "Divide two decimal values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 105
+   },
+   {
+      "name": "increment",
+      "desc": "Add to a number by one",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 106
+   },
+   {
+      "name": "decrement",
+      "desc": "Subtract to a number by one",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 107
+   },
+   {
+      "name": "compoundAdd",
+      "desc": "Add a number to 5",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 108
+   },
+   {
+      "name": "concatenate",
+      "desc": "Type in two strings to concatenate.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 109
+   },
+   {
+      "name": "concatentatePlusEqual",
+      "desc": "Type in two strings to concatenate.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 110
+   },
+   {
+      "name": "concatentateVariable",
+      "desc": "Type in your first name and last name.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 111
+   },
+   {
+      "name": "stringLength",
+      "desc": "Type in a word to see how long it is.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 112
+   },
+   {
+      "name": "bracketFirstLetter",
+      "desc": "Type in a word to see the first letter of it.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 113
+   },
+   {
+      "name": "bracketNthLetter",
+      "desc": "Type a word and the number of the letter you want displayed.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 114
+   },
+   {
+      "name": "bracketLastLetter",
+      "desc": "Type in a word to see the last letter of it.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 115
+   },
+   {
+      "name": "bracketNthLastLetter",
+      "desc": "Type a word and the number of the letter from the end to display it.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 116
+   },
+   {
+      "name": "pushArray",
+      "desc": "Type in two things you would like pushed to an array 7,3.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 117
+   },
+   {
+      "name": "popArray",
+      "desc": "Press run to remove the last number of the array 7,3,4.",
+      "inputs": 0,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 118
+   },
+   {
+      "name": "shiftArray",
+      "desc": "Press run to remove the first number of the array 7,3,4.",
+      "inputs": 0,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 119
+   },
+   {
+      "name": "unShiftArray",
+      "desc": "Type in two numbers you want to replace the first two numbers in the array 3,5,8,7.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 120
+   },
+   {
+      "name": "shoppingList",
+      "desc": "There are too many sweets! Type in an item then a quantity to replace the Ice Cream from the array.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 121
+   },
+   {
+      "name": "standInLine",
+      "desc": "Enter your number to be put in line. Press run to let the number in front go to the window.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 122
+   },
+   {
+      "name": "countingCards",
+      "desc": "You are counting cards, input the five cards dealt.",
+      "inputs": 5,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 200
+   },
+   {
+      "name": "recordCollection",
+      "desc": "You have a record collection, input a four number id (0001), then what you want to modify (album, artist, tracks), last the make of that value to add. Use the console to see the updated collection.",
+      "inputs": 3,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 201
+   },
+   {
+      "name": "forOddNumbers",
+      "desc": "Enter an number to have the array populate it with odd numbers.",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 202
+   },
+   {
+      "name": "profileLookup",
+      "desc": "Enter the firstname then either lastName, number, likes.",
+      "inputs": 2,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 203
+   },
+   {
+      "name": "randomRange",
+      "desc": "Enter and minimum whole number then a maximum whole number to get a randon number from that range.",
+      "inputs": 2,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 204
+   },
+   {
+      "name": "spliceArr",
+      "desc": "Enter the position and how many numbers you would like to remove from the array. [2, 4, 5, 1, 7, 5, 2, 1]",
+      "inputs": 2,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 205
+   },
+   {
+      "name": "addSlpiceArr",
+      "desc": "Enter the position and how many numbers you would like to remove from the array, then put a a number in each of the other two fields to add those to the array. [2, 4, 5, 1, 7, 5, 2, 1]",
+      "inputs": 4,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 206
+   },
+   {
+      "name": "indexOfCheck",
+      "desc": "Type in a fruit to see if its in the array. [\"apples\", \"pears\", \"oranges\", \"peaches\", \"pears\"]",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 207
+   },
+   {
+      "name": "variableType",
+      "desc": "Type in a variable to see what type it is.",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 208
+   },
+   {
+      "name": "arrayPrototypeFilter",
+      "desc": "Press run to filter out the even numbers. The default array is [23, 44, 5, 16, 24, 37, 39, 22] if no input is used.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 300
+   },
+   {
+      "name": "sliceArray",
+      "desc": "Enter an array, then what number you want to start copying and what number to end copying that part of the array to a new array. Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+      "inputs": 2,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 301
+   },
+   {
+      "name": "spliceBad",
+      "desc": "Type in the beginning and end of the array give to see the difference between splice and slice. Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+      "inputs": 2,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 302
+   },
+   {
+      "name": "arrayConcat",
+      "desc": "Type in two arrays to combiine them.",
+      "inputs": 2,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 303
+   },
+   {
+      "name": "pushVSconcat",
+      "desc": "Enter an array to see the difference between .push and .concat. Array = [1, 2, 3, 4, 5]",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 304
+   },
+   {
+      "name": "reduceArray",
+      "desc": "Type in a array to get only the positive numbers to add.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 305
+   },
+   {
+      "name": "complexProblem",
+      "desc": "Enter an array, then the power you want only the even non-negative non-decimal parts to a new array.",
+      "inputs": 2,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 306
+   },
+   {
+      "name": "sortArray",
+      "desc": "Hit run to sort the array in alphabetical order. Array = [\"l\", \"g\", \"a\", \"c\", \"d\", \"b\", \"f\", \"z\", \"h\", \"l\", \"a\"]",
+      "inputs": 0,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 307
+   },
+   {
+      "name": "splitArray",
+      "desc": "Type it a sentence to split it into an array.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 308
+   },
+   {
+      "name": "joinArray",
+      "desc": "Put a string in with dashes instead of spaces and let the function turn it into an array and then back to a string with spaces instead of dashes.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 309
+   },
+   {
+      "name": "slug",
+      "desc": "type the title of something to get the url slug that should be used.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 310
+   },
+   {
+      "name": "everyArray",
+      "desc": "Enter a number array and hit run to see if all of the numbers of that array are positive.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 311
+   },
+   {
+      "name": "someArray",
+      "desc": "Enter a number array to see if some of the contents of it are positive.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 312
+   },
+   {
+      "name": "celsiusToFahrenheit",
+      "desc": "Enter the celsius temperature hit run to convert that to fahrenheit.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 400
+   },
+   {
+      "name": "makeStringBackwards",
+      "desc": "Type in a string and hit run to make it spell out backwards.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 401
+   },
+   {
+      "name": "factoralize",
+      "desc": "Type in a number and hit run to see the product of its factors.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 402
+   },
+   {
+      "name": "findLongestWordLength",
+      "desc": "Type a sentence and hit run to find the longest word.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 403
+   },
+   {
+      "name": "largestNumberArrays",
+      "desc": "Enter one array of numbers, then another array of numbers, then hit run to return a new array with only the largest number in each of the two arrays.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 404
+   },
+   {
+      "name": "endingConfirmed",
+      "desc": "Type in a string, an then type in another string to see if is the ending of the first string.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 405
+   },
+   {
+      "name": "stringRepeat",
+      "desc": "Type in a string then a number, hit run to repeat the string the amount of times specified by you.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 406
+   },
+   {
+      "name": "stringTruncate",
+      "desc": "Type in a string the a number value you want that string to be truncated to with ..., if the string is shorter than the number given, i wil just display the string.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 407
+   },
+   {
+      "name": "findersKeepers",
+      "desc": "Type in an array and then type 1 to return the first odd number or 2 to return the first even number. If it doesnt it should return an undefined enswer.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 408
+   },
+   {
+      "name": "booWho",
+      "desc": "Type in a boolean true or false to get true, all other input gets false.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 409
+   },
+   {
+      "name": "titleCase",
+      "desc": "Type in a sentence to make the first letter of each word capitalized.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 410
+   },
+   {
+      "name": "sliceSplice",
+      "desc": "Type in two arrays, then select where you want array 1 to be spliced into array two.",
+      "inputs": 3,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 411
+   },
+   {
+      "name": "falsyBouncer",
+      "desc": "Type in an array of things. If they are false, it will be filtered out.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 412
+   },
+   {
+      "name": "whereDoIBelong",
+      "desc": "Enter an array of numbers, then a number you want inserted in to array. Hit run to display that number in the index of the sorted array.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 413
+   },
+   {
+      "name": "mutation",
+      "desc": "Type in a two element array of strings, if the second string is made up of letters from the first sting, then you will get a true response, if not you will get a false response.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 414
+   },
+   {
+      "name": "chunkyMonkey",
+      "desc": "Type in an array, then type in what size you want the sub arrays to be. Use console.log to see the sub arrays.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 415
+   },
+   {
+      "name": "matchLiteralStrings",
+      "desc": "Type in a string and hit run, to see if the name Bob is in the string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 500
+   },
+   {
+      "name": "singleCharacterMultiPosibilities",
+      "desc": "Type in a string to pull out the vowels",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 501
+   },
+   {
+      "name": "notSpecifiedSingleCharacter",
+      "desc": "Type in a string and hit run to return the chracters that are not vowels or numbers. (this will show spaces too)",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 502
+   },
+   {
+      "name": "charctersThatOccurMuli",
+      "desc": "Type in a string with letters that are back to back to have them show up in the same elements of an array.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 503
+   },
+   {
+      "name": "criminalHunt",
+      "desc": "We are looking for criminals!, type in a single long string, the Criminals have to be together to be caught. Ex # the criminals in the string need to be like this CCCC!",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 504
+   },
+   {
+      "name": "beginningStringPatterns",
+      "desc": "Type in a sentence and then hit run to see if it begins with The.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 505
+   },
+   {
+      "name": "endingStringPatterns",
+      "desc": "Type in a string and hit run to see if it ends in cat.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 506
+   },
+   {
+      "name": "matchAllLettersAndNumbers",
+      "desc": "Type in a string and hit run to get the character count.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 507
+   },
+   {
+      "name": "matchAllButLettersAndNumbers",
+      "desc": "Type in a string and hit run to get the count of all characters that arent letters, numbers, and underscores.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 508
+   },
+   {
+      "name": "matchNumbers",
+      "desc": "Type in a string and hit run to get a count of numbers in your string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 509
+   },
+   {
+      "name": "matchNonNumbers",
+      "desc": "Type in a string and hit run to gat a count of non-nubers in your string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 510
+   },
+   {
+      "name": "matchNonWhitespace",
+      "desc": "Type in a string and hot run to get a count of all scharacters that arent whitespace.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 511
+   },
+   {
+      "name": "positiveNegativeLookahead",
+      "desc": "Type in a password that does not start with a number, is at least five characters long, and ends with atleast two numbers.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 512
+   },
+   {
+      "name": "mixedGroupingOfCharacters",
+      "desc": "Type in the name of the president of the 2008 election or his wife's name. Make sure to capitalize the first letter of the first name and last name.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 513
+   },
+   {
+      "name": "searchAndReplace",
+      "desc": "Type in three words and hit run to have them returned in reverse order.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 514
+   },
+   {
+      "name": "removeWhiteSpace",
+      "desc": "Type in a string with whitespace at the beginning and end of it and hit run to remove it.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 515
+   }
+]
