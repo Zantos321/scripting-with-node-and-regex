@@ -1,0 +1,209 @@
+[
+   {
+      "name": "add",
+      "desc": "Add two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 100
+   },
+   {
+      "name": "subtract",
+      "desc": "Subtract two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 101
+   },
+   {
+      "name": "multiplication",
+      "desc": "Multiply two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 102
+   },
+   {
+      "name": "division",
+      "desc": "Divide two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 103
+   },
+   {
+      "name": "decimalMultiplication",
+      "desc": "Multiply two decimal values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 104
+   },
+   {
+      "name": "decimalDivision",
+      "desc": "Divide two decimal values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 105
+   },
+   {
+      "name": "increment",
+      "desc": "Add to a number by one",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 106
+   },
+   {
+      "name": "decrement",
+      "desc": "Subtract to a number by one",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 107
+   },
+   {
+      "name": "compoundAdd",
+      "desc": "Add a number to 5",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 108
+   },
+   {
+      "name": "concatenate",
+      "desc": "Type in two strings to concatenate.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 109
+   },
+   {
+      "name": "concatentatePlusEqual",
+      "desc": "Type in two strings to concatenate.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 110
+   },
+   {
+      "name": "concatentateVariable",
+      "desc": "Type in your first name and last name.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 111
+   },
+   {
+      "name": "stringLength",
+      "desc": "Type in a word to see how long it is.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 112
+   },
+   {
+      "name": "bracketFirstLetter",
+      "desc": "Type in a word to see the first letter of it.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 113
+   },
+   {
+      "name": "bracketNthLetter",
+      "desc": "Type a word and the number of the letter you want displayed.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 114
+   },
+   {
+      "name": "bracketLastLetter",
+      "desc": "Type in a word to see the last letter of it.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 115
+   },
+   {
+      "name": "bracketNthLastLetter",
+      "desc": "Type a word and the number of the letter from the end to display it.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 116
+   },
+   {
+      "name": "pushArray",
+      "desc": "Type in two things you would like pushed to an array 7,3.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 117
+   },
+   {
+      "name": "popArray",
+      "desc": "Press run to remove the last number of the array 7,3,4.",
+      "inputs": 0,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 118
+   },
+   {
+      "name": "shiftArray",
+      "desc": "Press run to remove the first number of the array 7,3,4.",
+      "inputs": 0,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 119
+   },
+   {
+      "name": "unShiftArray",
+      "desc": "Type in two numbers you want to replace the first two numbers in the array 3,5,8,7.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 120
+   },
+   {
+      "name": "shoppingList",
+      "desc": "There are too many sweets! Type in an item then a quantity to replace the Ice Cream from the array.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 121
+   },
+   {
+      "name": "standInLine",
+      "desc": "Enter your number to be put in line. Press run to let the number in front go to the window.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 122
+   }
+]

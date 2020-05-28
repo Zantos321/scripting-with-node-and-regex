@@ -1,0 +1,83 @@
+[
+   {
+      "name": "countingCards",
+      "desc": "You are counting cards, input the five cards dealt.",
+      "inputs": 5,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 200
+   },
+   {
+      "name": "recordCollection",
+      "desc": "You have a record collection, input a four number id (0001), then what you want to modify (album, artist, tracks), last the make of that value to add. Use the console to see the updated collection.",
+      "inputs": 3,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 201
+   },
+   {
+      "name": "forOddNumbers",
+      "desc": "Enter an number to have the array populate it with odd numbers.",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 202
+   },
+   {
+      "name": "profileLookup",
+      "desc": "Enter the firstname then either lastName, number, likes.",
+      "inputs": 2,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 203
+   },
+   {
+      "name": "randomRange",
+      "desc": "Enter and minimum whole number then a maximum whole number to get a randon number from that range.",
+      "inputs": 2,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 204
+   },
+   {
+      "name": "spliceArr",
+      "desc": "Enter the position and how many numbers you would like to remove from the array. [2, 4, 5, 1, 7, 5, 2, 1]",
+      "inputs": 2,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 205
+   },
+   {
+      "name": "addSlpiceArr",
+      "desc": "Enter the position and how many numbers you would like to remove from the array, then put a a number in each of the other two fields to add those to the array. [2, 4, 5, 1, 7, 5, 2, 1]",
+      "inputs": 4,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 206
+   },
+   {
+      "name": "indexOfCheck",
+      "desc": "Type in a fruit to see if its in the array. [\"apples\", \"pears\", \"oranges\", \"peaches\", \"pears\"]",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 207
+   },
+   {
+      "name": "variableType",
+      "desc": "Type in a variable to see what type it is.",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 208
+   }
+]

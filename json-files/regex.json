@@ -1,0 +1,146 @@
+[
+   {
+      "name": "matchLiteralStrings",
+      "desc": "Type in a string and hit run, to see if the name Bob is in the string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 500
+   },
+   {
+      "name": "singleCharacterMultiPosibilities",
+      "desc": "Type in a string to pull out the vowels",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 501
+   },
+   {
+      "name": "notSpecifiedSingleCharacter",
+      "desc": "Type in a string and hit run to return the chracters that are not vowels or numbers. (this will show spaces too)",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 502
+   },
+   {
+      "name": "charctersThatOccurMuli",
+      "desc": "Type in a string with letters that are back to back to have them show up in the same elements of an array.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 503
+   },
+   {
+      "name": "criminalHunt",
+      "desc": "We are looking for criminals!, type in a single long string, the Criminals have to be together to be caught. Ex # the criminals in the string need to be like this CCCC!",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 504
+   },
+   {
+      "name": "beginningStringPatterns",
+      "desc": "Type in a sentence and then hit run to see if it begins with The.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 505
+   },
+   {
+      "name": "endingStringPatterns",
+      "desc": "Type in a string and hit run to see if it ends in cat.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 506
+   },
+   {
+      "name": "matchAllLettersAndNumbers",
+      "desc": "Type in a string and hit run to get the character count.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 507
+   },
+   {
+      "name": "matchAllButLettersAndNumbers",
+      "desc": "Type in a string and hit run to get the count of all characters that arent letters, numbers, and underscores.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 508
+   },
+   {
+      "name": "matchNumbers",
+      "desc": "Type in a string and hit run to get a count of numbers in your string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 509
+   },
+   {
+      "name": "matchNonNumbers",
+      "desc": "Type in a string and hit run to gat a count of non-nubers in your string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 510
+   },
+   {
+      "name": "matchNonWhitespace",
+      "desc": "Type in a string and hot run to get a count of all scharacters that arent whitespace.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 511
+   },
+   {
+      "name": "positiveNegativeLookahead",
+      "desc": "Type in a password that does not start with a number, is at least five characters long, and ends with atleast two numbers.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 512
+   },
+   {
+      "name": "mixedGroupingOfCharacters",
+      "desc": "Type in the name of the president of the 2008 election or his wife's name. Make sure to capitalize the first letter of the first name and last name.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 513
+   },
+   {
+      "name": "searchAndReplace",
+      "desc": "Type in three words and hit run to have them returned in reverse order.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 514
+   },
+   {
+      "name": "removeWhiteSpace",
+      "desc": "Type in a string with whitespace at the beginning and end of it and hit run to remove it.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 515
+   }
+]

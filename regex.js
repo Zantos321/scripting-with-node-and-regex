@@ -18,6 +18,7 @@ module.exports = {
       let getInputsRegex = /<input.*?\/>/gs;
       let nonCorrectedArray = component.match(getInputsRegex);
       if (nonCorrectedArray == null) {
+         // replaced anything that gives a null answer to and empty array
          return [];
       }
       return component.match(getInputsRegex);
